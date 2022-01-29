@@ -466,9 +466,10 @@ address {
 
 .footer-wrap-item:not(:last-child) {
   margin-right: 70px;
-  margin-left: auto;
 }
-
+.footer-wrap-item:last-child {
+  margin-left:auto;
+}
 .footer-social-text {
   font-weight: 700;
   font-size: 14px;
